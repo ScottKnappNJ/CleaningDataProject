@@ -48,7 +48,7 @@ steps of the course project.
 
 **6. Appropriately label the data set with descriptive variable names**
         
-        * extract the column names into a vector called col_data2 using colnames()
+        * col_data2 extracts the column names into a vector using colnames()
         * replace the "code"" column name with "activty" using col_data[2] <-
         * using gsub() make the following replacement:
                 * ^t <- Time
@@ -65,5 +65,5 @@ steps of the course project.
         
         * tidy_data is created by summarizing subset_data by taking the mean through 
                  using summarize_all() after applying grouped_by() for subject and activity
-        * Create tidy_data.txt using write.table()
+        * tidy_data.txt is created using write.table()
         
